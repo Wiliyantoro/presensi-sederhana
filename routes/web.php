@@ -17,6 +17,8 @@ use App\Http\Controllers\LoginController;
 Route::get('/', function () {
     return view('welcome');
 });
+route::get('/registrasi', [LoginController::class, 'registrasi'])->name('registrasi');
+route::post('/simpanregistrasi', [LoginController::class, 'simpanregistrasi'])->name('simpanregistrasi');
 route::get('/login', [LoginController::class, 'halamanlogin'])->name('login');
 route::post('/post/login', [LoginController::class, 'postlogin'])->name('postlogin');
 route::get('/logout', [LoginController::class, 'logout'])->name('logout');
