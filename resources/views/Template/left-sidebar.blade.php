@@ -39,7 +39,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="{{route('presensi-keluar')}}" class="nav-link">
                                 <i class="fas fa-sign-out-alt"></i>
                                 <p>Presensi Keluar</p>
                             </a>
